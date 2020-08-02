@@ -386,7 +386,7 @@ a.link.current::after {
 .cliernt-list-item:not(:last-child) {
   margin-right: 30px;
 }
-.cliernt-list-item {
+.cliernt-list-item .link {
   width: 170px;
   height: 90px;
   display: flex;
@@ -417,6 +417,9 @@ a.link.current::after {
 }
 .cliernt-list {
   padding-top: 50px;
+}
+.cliernt-list .link:focus {
+  border-color: var(--accent-color);
 }
 /* Футер */
 .footer .container {
