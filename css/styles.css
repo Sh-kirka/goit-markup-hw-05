@@ -145,17 +145,16 @@ a.link.current::after {
   fill: var(--primary-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-address:hover .header-mail-svg,
-.header-address:focus .header-mail-svg {
+.header-address:hover .header-mail-svg {
   fill: var(--accent-color);
 }
 .header-address:hover .header-tel-svg {
   fill: var(--accent-color);
 }
-.header-address:focus .header-tel-svg {
+.link:focus .header-tel-svg {
   fill: var(--accent-color);
 }
-.header-address:focus {
+.link:focus .header-mail-svg {
   fill: var(--accent-color);
 }
 /*HERO СЕКЦИЯ*/
@@ -398,13 +397,19 @@ a.link.current::after {
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cliernt-list-item:hover,
-.cliernt-list-item:focus {
+
+.cliernt-list-item:hover {
   border-color: var(--accent-color);
 }
-.cliernt-list-item:hover .cliernt-list-item-svg,
-.cliernt-list-item:focus .cliernt-list-item-svg {
+.cliernt-list-item:hover .cliernt-list-item-svg {
   fill: var(--accent-color);
+}
+.link:focus .cliernt-list-item-svg {
+  fill: var(--accent-color);
+}
+.cliernt-list-item-link:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 .cliernt-list-item-svg {
   fill: #afb1b8;
