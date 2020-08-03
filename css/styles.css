@@ -536,8 +536,8 @@ a.link.current::after {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+.portfolio-list-item .link:hover,
+.portfolio-list-item .link:focus {
   box-sizing: border-box;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
